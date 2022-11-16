@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Created with the purpose of demonstrating how to start a project with Cypress for API testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaphaelCarvalho07/dummy-rest-api.git"
+  },
+  "author": "Raphael Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RaphaelCarvalho07/dummy-rest-api/issues"
+  },
+  "homepage": "https://github.com/RaphaelCarvalho07/dummy-rest-api#readme"
+}
