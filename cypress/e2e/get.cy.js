@@ -1,15 +1,16 @@
 describe('GET /api/productsList', () => {
-    context('buscar lista de todos os produtos', () => {
+    context('o usuário tenta buscar a lista de todos os produtos', () => {
         it('deve trazer a lista dos produtos', () => {
             cy.request({
                 method: 'GET',
-                url: '/productsList',
+                url: 'https://automationexercise.com/api/productsList',
                 headers: {
                     'Content-Type': 'application/json'
                 }
             }).then((res) => {
-                cy.log(res.body)
+                expect(res).to.have.property('body')
                 expect(res.status).to.eql(200)
+                expect(res.body).not.to.be.empty
             })
         })
     })
