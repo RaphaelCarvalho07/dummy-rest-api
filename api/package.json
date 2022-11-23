@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RaphaelCarvalho07/dummy-rest-api.git"
+    "url": "git+https://github.com/RaphaelCarvalho07/how-to-cypress.git"
   },
   "author": "Raphael Carvalho",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RaphaelCarvalho07/dummy-rest-api/issues"
+    "url": "https://github.com/RaphaelCarvalho07/how-to-cypress.git/issues"
   },
-  "homepage": "https://github.com/RaphaelCarvalho07/dummy-rest-api#readme"
+  "homepage": "https://github.com/RaphaelCarvalho07/how-to-cypress.git#readme"
 }
