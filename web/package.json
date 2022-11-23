@@ -1,0 +1,19 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Created with the purpose of demonstrating how to start a project with Cypress for WEB testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RaphaelCarvalho07/how-to-cypress.git"
+  },
+  "author": "Raphael Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RaphaelCarvalho07/how-to-cypress/issues"
+  },
+  "homepage": "https://github.com/RaphaelCarvalho07/how-to-cypress#readme"
+}
