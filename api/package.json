@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RaphaelCarvalho07/how-to-cypress.git"
+    "url": "git+ssh://git@github.com/RaphaelCarvalho07/how-to-cypress.git"
   },
   "author": "Raphael Carvalho",
   "license": "MIT",
