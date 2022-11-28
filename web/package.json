@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RaphaelCarvalho07/how-to-cypress/issues"
   },
-  "homepage": "https://github.com/RaphaelCarvalho07/how-to-cypress#readme"
+  "homepage": "https://github.com/RaphaelCarvalho07/how-to-cypress#readme",
+  "devDependencies": {
+    "cypress": "^11.2.0"
+  }
 }
