@@ -9,7 +9,7 @@ describe('cadastrar', () => {
       cy.get('[data-qa="signup-email"]').type('fulano@fulano.com')
       cy.get('[data-qa="signup-button"]').click()
       cy.get('[class^=title]').should('be.visible')
-      cy.get('input[id="id_gender1"]').click()
+      cy.get('input[id="id_gender1"]').check()
       cy.get('[data-qa="password"]').type('pwd123')
       cy.get('#days')
         .select('7')
